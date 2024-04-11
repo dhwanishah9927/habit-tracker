@@ -6,8 +6,8 @@
 <div>
     <!----------- if user is not logged in ----------->
     <% if(!locals.user) { %>
-        <img class="welcome-img" src="/img/landing.jpg">
-        <div class="welcome-title">
+        
+        <div class="welcome-title" style="background-color: black;">
              Build the best version of yourself <br> by mastering your habits.
         </div>
         <form action="/users/sign-up" method="GET">
